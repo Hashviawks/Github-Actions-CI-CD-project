@@ -2,9 +2,9 @@ name: CI/CD Pipeline
 
 on:
   push:
-    branches: [maths]
+    branches: [main]
   pull_request:
-    branches: [maths]
+    branches: [main]
   workflow_dispatch:
 
 jobs:
