@@ -29,7 +29,8 @@ jobs:
         run: pytest
 
       - name: Run linting
-        run: flake8 maths.py
+        run: |
+          flake8 maths.py test_maths.py
 
       - name: Simulate deployment
         run: echo "Deployment successful!"
